@@ -2,7 +2,7 @@
 
 namespace DodgeGame
 {
-	public class Unit
+	abstract public class Unit
 	{
 		public Unit (int x, int y, string unitGraphic)
 		{

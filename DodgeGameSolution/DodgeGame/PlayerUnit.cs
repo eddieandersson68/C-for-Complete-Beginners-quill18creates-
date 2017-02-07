@@ -17,6 +17,12 @@ namespace DodgeGame
 			// our parent class's Update. In other words,
 			// we want to OVERRIDE the parent.
 
+			// Has the user pressed a key?
+			// if so, let's MOVE based on that key. 
+
+
+
+
 			//Now that our keyboard input is done,
 			// let's call our base class's Update function
 			// in case it has any important work to do.

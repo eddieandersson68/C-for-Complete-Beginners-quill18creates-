@@ -2,3 +2,7 @@ C:\Users\Eddie\Documents\MonoDevelup\DodgeGameSolution\DodgeGame\bin\Debug\Dodge
 C:\Users\Eddie\Documents\MonoDevelup\DodgeGameSolution\DodgeGame\bin\Debug\DodgeGame.pdb
 C:\Users\Eddie\Documents\MonoDevelup\DodgeGameSolution\DodgeGame\obj\x86\Debug\DodgeGame.exe
 C:\Users\Eddie\Documents\MonoDevelup\DodgeGameSolution\DodgeGame\obj\x86\Debug\DodgeGame.pdb
+C:\Users\Eddie\Documents\MonoDevelup\C-for-Complete-Beginners-quill18creates-\DodgeGameSolution\DodgeGame\obj\x86\Debug\DodgeGame.exe
+C:\Users\Eddie\Documents\MonoDevelup\C-for-Complete-Beginners-quill18creates-\DodgeGameSolution\DodgeGame\bin\Debug\DodgeGame.exe
+C:\Users\Eddie\Documents\MonoDevelup\C-for-Complete-Beginners-quill18creates-\DodgeGameSolution\DodgeGame\bin\Debug\DodgeGame.pdb
+C:\Users\Eddie\Documents\MonoDevelup\C-for-Complete-Beginners-quill18creates-\DodgeGameSolution\DodgeGame\obj\x86\Debug\DodgeGame.pdb

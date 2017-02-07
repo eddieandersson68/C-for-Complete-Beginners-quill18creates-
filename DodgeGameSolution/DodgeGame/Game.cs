@@ -12,6 +12,8 @@ namespace DodgeGame
 			// Now instantiate the enemy.
 
 			enemyUnit = new EnemyUnit (20, 17, "X");
+
+
 		}
 
 		private Unit playerUnit;
