@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="DodgeGame.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unit.cs">
+    <Files>
+      <File FileName="DodgeGameMain.cs" Line="1" Column="1" />
+      <File FileName="EnemyUnit.cs" Line="1" Column="1" />
+      <File FileName="Game.cs" Line="1" Column="1" />
+      <File FileName="PlayerUnit.cs" Line="1" Column="1" />
+      <File FileName="Unit.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
