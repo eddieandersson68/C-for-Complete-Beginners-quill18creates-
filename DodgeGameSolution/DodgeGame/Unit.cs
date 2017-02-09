@@ -10,7 +10,7 @@ namespace DodgeGame
 			this.Y = y;
 			this.UnitGraphic = unitGraphic;
 		}
-		private int X // the way the rest of the program interacts with X
+		public int X // the way the rest of the program interacts with X
 		{
 			get
 			{
