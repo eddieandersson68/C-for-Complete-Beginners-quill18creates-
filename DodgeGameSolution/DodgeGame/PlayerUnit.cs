@@ -8,7 +8,7 @@ namespace DodgeGame
 		{
 		}
 
-			override public void Update()
+			override public void Update(int deltaTimeMS)
 		{
 			//When the PLAYER's Update funtion gets called,
 			// we would like to execute this INSTEAD of
@@ -84,7 +84,7 @@ namespace DodgeGame
 			// let's call our base class's Update function
 			// in case it has any important work to do.
 
-			base.Update ();
+			base.Update (deltaTimeMS);
 
 			//throw new Exception ("We are in PlayerUnit:Update()!");
 		}

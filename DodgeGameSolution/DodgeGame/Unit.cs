@@ -16,6 +16,7 @@ namespace DodgeGame
 			{
 				return _x;
 			}
+
 			set
 			{
 					if (value <  0 || value >= Console.WindowWidth) 
@@ -24,10 +25,12 @@ namespace DodgeGame
 					// Freak out, and put up some kind of error message!
 					throw new Exception ("Invalid X coordinate passed ");
 				}
+				Undraw (); // We are moving, So Undraw!!
 				_x = value;
 			}
 		}
 		private int _x; // Where the Value of X is actually stored.
+
 
 		public int Y // The way the rest of the program interacts with Y.
 		{
@@ -42,7 +45,7 @@ namespace DodgeGame
 				{
 					throw new Exception ("Invalid Y coordinate passed. ");
 				}
-
+				Undraw (); // We are moving, So Undraw!!
 				_y = value;
 			}
 		}
@@ -50,7 +53,7 @@ namespace DodgeGame
 	
 		public string UnitGraphic { get; set;}
 		
-		virtual public void Update()
+		virtual public void Update(int deltaTimeMS)
 		{
 			// This is and instance method that gets run every
 			// frame, where the Unit should resolve any gamey
@@ -74,8 +77,12 @@ namespace DodgeGame
 			// and this instance ONLY.
 			Console.SetCursorPosition (this.X, this.Y);
 			Console.Write (this.UnitGraphic);
-		
+		}
 
+		public void Undraw()
+		{
+			Console.SetCursorPosition (this.X, this.Y);
+			Console.Write (' ');
 		}
 	}
 }

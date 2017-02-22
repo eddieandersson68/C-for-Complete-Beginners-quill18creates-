@@ -37,4 +37,7 @@
     <Compile Include="PlayerUnit.cs" />
     <Compile Include="EnemyUnit.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
 </Project>
